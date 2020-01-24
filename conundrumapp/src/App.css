@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.myAddBtn{
+    display: inline-block;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: royalblue;
+    margin: 50px 0 0 50px;
+}
+
+.mySubBtn{
+    display: inline-block;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: royalblue;
+    margin: 50px 0 0 50px;
+}
+
+.myDivBtn{
+    display: inline-block;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: royalblue;
+    margin: 50px 0 0 50px;
+}
+
+.btn{
+  display: inline-block;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: royalblue;
+  margin: 50px 0 0 50px;
+}
+
+

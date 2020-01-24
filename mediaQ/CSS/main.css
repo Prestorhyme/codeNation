@@ -1,0 +1,11 @@
+@media (min-width: 921px) and (max-width: 1500px)
+{
+    body{
+        background-color: yellow;
+    }
+    .columns > .three-columns
+    {
+        width: 33.3333%;
+        float: left;
+    }
+}

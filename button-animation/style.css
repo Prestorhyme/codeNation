@@ -1,0 +1,97 @@
+body{
+    background-image: url("field.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 500px;
+}
+
+.dragon{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation-name: fly;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+}
+
+.knight{
+    position: absolute;
+    bottom: -100px;
+    left: 0px;
+    animation-name: fly;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform: scaleX(-1);
+}
+
+.facebook{
+    width: 100px;
+    transition: border-radius 2s;
+    transition: all 0.8s ease-in-out;
+}
+
+.facebook:hover{
+    border-radius: 50%;
+    box-shadow: -5px 21px 47px 5px rgba(0,0,0,1);
+}
+
+.instagram{
+    width: 100px;
+    transition: all .2s ease-in-out; 
+}
+
+.instagram:hover{
+    border-radius: none;
+    transform: scale(1.1); 
+}
+
+.twitter{
+    width: 100px;
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+}
+
+.twitter:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.codeNation{
+    width: 200px;
+   
+}
+
+.codeNation:hover{
+    animation: pulse 1s infinite;
+    animation-timing-function: linear;  
+}
+
+/* .codeNation:hover{
+    transition
+} */
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1);}
+    100% { transform: scale(1); }
+    
+  }
+
+@keyframes fly{
+    from{ transform: translateX(0)}
+    to{ transform: translateX(2000px)}
+}
+
+.imageContainer{
+    display: flex;
+    justify-content: space-around;
+}
+

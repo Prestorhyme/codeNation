@@ -1,0 +1,71 @@
+body{
+  background-color: orange;
+}
+
+.title{
+  color: blue;
+}
+
+.myBtn{
+  display: inline-block;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: royalblue;
+  margin: 50px 0 0 50px;
+}
+
+.App {
+  text-align: center;
+}
+
+.Picture {
+  
+  border: 2px solid black;
+  margin-right: 50px;
+  display: inline-block;
+}
+
+.details{
+  background-color: white;
+  width: 330px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  background-color: royalblue;
+  color: white;
+}
+
+nav ul li{
+  display: inline-block;
+  background-color: white;
+  color: black;
+  padding: 15px 30px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
